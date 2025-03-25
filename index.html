@@ -2,69 +2,146 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyrus Luigi Cabero - Resume</title>
     <link rel="stylesheet" href="resume.css">
-    <script src="https://kit.fontawesome.com/572eff73f2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body id="top">
+<body>
+    <a id="top"></a>
     <nav class="main-nav">
         <ul>
             <li><a href="https://saiqt07.github.io/website/"><i class="fa-solid fa-house"></i> Home</a></li>
-            <li><a href="https://saiqt07.github.io/Bio/"><i class="fa-solid fa-user"></i> BIOGRAPHY</a></li>
+            <li><a href="https://saiqt07.github.io/Bio/"><i class="fa-solid fa-user"></i> Biography</a></li>
             <li><a href="https://saiqt07.github.io/skills/"><i class="fa-solid fa-lightbulb"></i> Skills</a></li>
-            <li><a href="https://saiqt07.github.io/Resume/"><i class="fa-solid fa-file"></i> Resume</a></li>
+            <li class="active"><a href="https://saiqt07.github.io/Resume/"><i class="fa-solid fa-file"></i> Resume</a></li>
             <li><a href="https://saiqt07.github.io/photo-dump/"><i class="fa-solid fa-images"></i> Photo Gallery</a></li>
-            <li><a href="https://saiqt07.github.io/My-beats/"><i class="fa-brands fa-spotify"></i> My beats</a></li>
+            <li><a href="https://saiqt07.github.io/My-beats/"><i class="fa-brands fa-spotify"></i> My Beats</a></li>
             <li><a href="https://saiqt07.github.io/My-film/"><i class="fa-solid fa-film"></i> My Film</a></li>
+            <li><a href="../tv shows/index.html"><i class="fa-solid fa-tv"></i> TV Shows</a></li>
+            <li><a href="../bucket list/index.html"><i class="fas fa-list"></i> Bucket List</a></li>
+            <li><a href="../places to visit/index.html"><i class="fa-solid fa-plane"></i> Dream Places</a></li>
         </ul>
     </nav>
-    <!--CABERO, CYRUS LUIGI-->
-    <!--FEBRUARY 17, 2025-->
+    
     <header>
         <h1>Resume</h1>
     </header>
-    <section>
-      <h2>About me<h2>
-      <p>I am Cyrus Luigi Cabero, an aspiring programmer seeking an internship where I can apply my programming skills and multitasking abilities. Passionate about software development and problem-solving, I have experience with various programming languages and database management. I am detail-oriented, adaptable, and eager to learn new technologies. My goal is to contribute to your company’s projects while gaining hands-on experience and professional growth.</p>
-    </section>
-    <section>
-        <h2>Technical IT Skills</h2>
-        <ul>
-            <li>Basic Computer Operations</li>
-            <li>Microsoft Office Applications</li>
-            <li>Customer Service Communication Tools</li>
-        </ul>
-    </section>
 
-    <section>
-        <h2>Educational Attainment</h2>
-        <ol>
-            <li><b>Elementary (2009 - 2017)</b> - San Pedro Elementary School</li>
-            <li><b>Junior & Senior High School (2017 - 2022)</b> - Narvacan National Central High School</li>
-            <li><b>College (2023 - Current)</b> - University of The East</li>
-        </ol>
-    </section>
+    <main>
+        <section id="about">
+            <div class="profile-image">
+                <img src="picme.jpg" alt="Cyrus Luigi Cabero" class="profile-pic">
+            </div>
+            <h2>About Me</h2>
+            <p>I am Cyrus Luigi Cabero, an aspiring programmer seeking an internship where I can apply my programming skills and multitasking abilities. Passionate about software development and problem-solving, I have experience with various programming languages and database management. I am detail-oriented, adaptable, and eager to learn new technologies. My goal is to contribute to your company's projects while gaining hands-on experience and professional growth.</p>
+        </section>
 
-    <section>
-        <h2>Skills, Training, and Seminars Attended</h2>
-        <ul>
-            <li>Programming</li>
-            <li>Web Designing</li>
-            <li>Cyber Security Seminar</li>
-        </ul>
-    </section>
+        <section id="education">
+            <h2>Educational Attainment</h2>
+            <ol>
+                <li>
+                    <div class="education-item">
+                        <span class="year">2023 - Present</span>
+                        <span class="degree">Bachelor's Degree in Information Technology </span>
+                        <a href="https://www.ue.edu.ph/" target="_blank" class="institution">University of The East <i class="fa-solid fa-external-link-alt fa-xs"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="education-item">
+                        <span class="year">2017 - 2022</span>
+                        <span class="degree">Junior & Senior High School</span>
+                        <a href="https://sites.google.com/depedilocossur.info/nnchs300063/" class="institution">Narvacan National Central High School</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="education-item">
+                        <span class="year">2009 - 2017</span>
+                        <span class="degree">Elementary Education</span>
+                        <a href="https://www.facebook.com/sanpedoes100550" class="institution">San Pedro Elementary School</a>
+                    </div>
+                </li>
+            </ol>
+        </section>
 
-    <section>
-        <h2>Hobbies & Interests</h2>
-        <ul>
-            <li>Coding Challenges</li>
-            <li>learning new programming languages</li>
-            <li>exploring emerging technologies</li>
-        </ul>
-    </section>
+        <section id="technical-skills">
+            <h2>Technical IT Skills</h2>
+            <div class="skills-container">
+                <div class="skills-column">
+                    <h3>Software</h3>
+                    <ul>
+                        <li>Microsoft Office Applications</li>
+                        <li>Adobe Creative Suite</li>
+                        <li>Database Management Systems</li>
+                    </ul>
+                </div>
+                <div class="skills-column">
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Python, Java</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skills-column">
+                    <h3>Other</h3>
+                    <ul>
+                        <li>Customer Service Communication</li>
+                        <li>Problem Solving</li>
+                        <li>Basic Computer Operations</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="training">
+            <h2>Skills, Training, and Seminars Attended</h2>
+            <ul class="training-list">
+                <li>
+                    <a href="#" class="training-link">
+                        Web Development Bootcamp
+                        <span class="training-details">Learned frontend and backend technologies</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="training-link">
+                        Cyber Security Seminar
+                        <span class="training-details">Understanding threats and protection mechanisms</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="training-link">
+                        Programming Competition
+                        <span class="training-details">Participated in coding challenges</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies & Interests</h2>
+            <ul class="hobbies-list">
+                <li><i class="fa-solid fa-code"></i> Coding Challenges</li>
+                <li><i class="fa-solid fa-laptop-code"></i> Learning New Programming Languages</li>
+                <li><i class="fa-solid fa-robot"></i> Exploring Emerging Technologies</li>
+                <li><i class="fa-solid fa-music"></i> Music Production</li>
+                <li><i class="fa-solid fa-film"></i> Filmmaking</li>
+            </ul>
+        </section>
+    </main>
+    <a href="#top" class="go-top-btn">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
         
     <footer>
-        <a href="#top" class="btn">Go Top</a>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
